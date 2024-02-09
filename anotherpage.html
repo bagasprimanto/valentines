@@ -1,0 +1,233 @@
+<html lang="en">
+<!-- 
+  Code Made By Nais ID
+  Youtube: Nais ID
+  Tiktok: @hanizapunyaa
+  -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+  <title>Happy Birthday!</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: "Ubuntu";
+      color: rgb(56, 56, 56);
+    }
+
+    body {
+      background: wheat;
+      background-image: url("https://wallpaper.dog/large/10871886.png");
+      background-image: linear-gradient(#ff71c0, #b983ff, #5aaeff);
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+      overflow: hidden;
+    }
+
+    .open {
+      background-image: linear-gradient(#ff71c0, #b983ff);
+      height: 100vh;
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      z-index: 1;
+      transition: 0.5s all ease;
+    }
+
+    .open h2 {
+      /* margin: 0 30px; */
+      margin-bottom: 20px;
+      color: rgb(56, 56, 56);
+      text-align: center;
+      max-width: 600px;
+    }
+
+    .open .card {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+      text-align: center;
+    }
+
+    .open .card h3 {
+      margin-top: 20px;
+    }
+
+    .open .card img {
+      height: 100px;
+    }
+
+    .atas {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .atas img {
+      height: 200px;
+      margin-bottom: 50px;
+      padding: 20px 30px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+    }
+
+    .atas h2 {
+      font-size: 1.5em;
+      padding: 20px 30px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+    }
+
+    p {
+      display: block;
+      text-align: center;
+      color: rgb(56, 56, 56);
+      background: white;
+      font-weight: bold;
+      font-size: 1.5em;
+      padding: 50px 30px;
+      margin: 40px 20px;
+      border-radius: 20px;
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.123);
+    }
+
+    p.wm {
+      margin-top: 70px;
+      margin-bottom: 0;
+      padding-top: 30px;
+      padding-bottom: 25px;
+      border-radius: 20px 20px 0 0;
+      font-weight: 500;
+      font-size: 1.1em;
+      color: red;
+    }
+
+    p.wm a {
+      color: red;
+      text-decoration: none;
+    }
+
+    .material-icons-sharp {
+      color: red;
+      font-size: 30px;
+      transform: translateY(5px);
+      animation: kenyal 2s ease infinite;
+      cursor: pointer;
+    }
+
+    @keyframes kenyal {
+      0% {
+        transform: scale(1) translateY(5px);
+      }
+
+      50% {
+        transform: scale(1.2) translateY(5px);
+      }
+
+      100% {
+        transform: scale(1) translateY(5px);
+      }
+    }
+
+    div.scroll-container {
+        background-color: #333;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+    }
+
+    div.scroll-container img {
+        padding: 10px;
+    }
+
+    .scroll-container img {
+        width: 600;
+        height: 400;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <audio class="audio" src="./download.mp3" autoplay type="audio"
+    loop=""></audio>
+  <div class="open">
+    <div class="card">
+      <h2>Ada pesan buat kamu</h2>
+      <img onclick="mulai()" src="https://i.postimg.cc/7ZH3t5dL/mail.png" alt="" srcset="" />
+      <h3>Tekan untuk membuka</h3>
+    </div>
+  </div>
+  <div class="atas" id="atas">
+    <img onclick="mulai()" src="https://i.postimg.cc/25Jn526q/sticker-Ultah.png" alt="" />
+    <h2>Scroll kebawah yaa! <3
+                                </div>
+
+  <p data-aos="zoom-in">Hi sayangkuu</p>
+  <p data-aos="zoom-in">tanggal berapa yaa sekarang?hm😏</p>
+  <p data-aos="zoom-in">Yash sekarang tanggal 31 Agustus yeyy</p>
+  <p data-aos="zoom-in">It's Your Birthday bebiii</p>
+  <p data-aos="zoom-in">Happy Birthday sayangg🥳💗</p>
+  <p data-aos="zoom-in">Semoga kamu panjang umur</p>
+  <p data-aos="zoom-in">Sehat selaluu</p>
+  <p data-aos="zoom-in">Makinn cantikk makinn pinterr makin baik makin cepet ketemuuuu🥰😇💗💗</p>
+  <p data-aos="zoom-in">Makin disayang mama dan keluarga,doa2 terbaikk buat Agness cantik!💗</p>
+  <p data-aos="zoom-in">Langgeng selaluu hingga tua amin amin aminnn💗</p>
+  <p data-aos="zoom-in">Semoga aku selalu bisa senenginn Agness 🥰🥰🥰</p>
+  <p data-aos="zoom-in">Emm apalagii yaa..</p>
+  <p data-aos="zoom-in">duh nda bisa berkata-kata 🥲"</p>
+  <p data-aos="zoom-in">Hihii maaff 😅</p>
+  <p data-aos="zoom-in">Yang terbaikk pokoknya buat Agnes sayang 🤗🤗🤗</p>
+  <p data-aos="zoom-in">Wishes nya nanti ditambahin lagii di WA?hehehe</p>
+  <p data-aos="zoom-in">Cuma mauu bilangg sekali lagii</p>
+  <p data-aos="zoom-in">I LOVE YOUU SO MUCHH SAYANGG</p>
+  <p data-aos="zoom-in">Maap cuma bisa bikin giniann hehe</p>
+  <p data-aos="zoom-in">UDAA YAA</p>
+  <p data-aos="zoom-in">SEKALII LAGIII</p>
+  <p data-aos="zoom-in">HAPPY BIRTHDAY SAYANGKU💗</p>
+  <p data-aos="zoom-in">I LOVE YOU TO INFINITY AND BEYOND!💗</p>
+  <p data-aos="zoom-in">Enjoy your birthday!</p>
+  <p data-aos="zoom-in">Babaiii!</p>
+  <p data-aos="zoom-in"><img src="./IMG_5645.JPG" alt="" width="600"><br>From your love, 🤗</p>
+
+
+
+  <p data-aos="zoom-in">Pencet love nya yaa sayanggg
+    <i onclick="tanya()" class="material-icons-sharp"> favorite </i>
+  </p>
+
+  <script>
+
+    var musik = "download.mp3";
+
+  </script>
+  <script> AOS.init({once: true, });</script>
+  <script> var audio = document.querySelector(".audio"); if (musik) {audio.src = musik;} function mulai() {audio.play(); document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;"; setTimeout(function () {document.querySelector(".open").style.display = "none";}, 1000);} function wa(isi) {window.open("https://api.whatsapp.com/send?text= Makasih ya udah inget ulang tahun aku, di hari spesial ini aku pengin " + isi);} async function tanya() {var {value: kado} = await swal.fire({title: "Di hari spesial ini maunya bby apaa?", input: "text", showCancelButton: false, }); if (kado) {await swal.fire("Kirim jawabannya ke wa aku ya"); wa(kado);} else {await swal.fire("Jangan dikosongin dong"); tanya();} }</script>
+><
+</body>
+
+</html>
